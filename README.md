@@ -43,7 +43,7 @@ Novalnet merchant account is required for processing all international and local
 
 ## Installation
 Follow these steps to install the Easy Digital Downloads payment plugin by Novalnet:
-1.	Download the Easy Digital Downloads payment plugin from <a href="https://wordpress.org/plugins/easy-digital-downloads-payment-gateway-by-novalnet/">marketplace</a> or get it by <a href="https://www.novalnet.de/kontakt/sales">contacting us</a>
+1.	Download the Easy Digital Downloads payment plugin from <a href="https://wordpress.org/plugins/easy-digital-downloads-payment-gateway-by-novalnet/">here</a> or get it by <a href="https://www.novalnet.de/kontakt/sales">contacting us</a>
 2.	Install the plugin to your Easy Digital Downloads shop
 3.	Configure Product Activation Key in the shop admin panel
 4.	Enable & activate the preferred payment types in your shop admin panel
