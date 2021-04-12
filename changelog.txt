@@ -2,13 +2,13 @@
 
 = 2.1.0 - 2021.04.12 =
 
+* New		- Implemented enforce 3D secure payment for countries outside EU
+* New		- Implemented Payment duration for Prepayment
 * Fix		- Compatibility for Wordpress 5.7
 * Fix		- Plugin adjusted to place subscription orders using  Credit Card 3D secure
 * Fix		- Refund notes updated only for the corresponding recurring order
 * Fix		- Plugin adjusted to place subscription orders with free trial amount
 * Fix		- Plugin updated to restrict overriding of the TID for the same order
-* New		- Implemented enforce 3D secure payment for countries outside EU
-* New		- Implemented Payment duration for Prepayment
 
 = 2.0.1 - 2020.12.24 =
 
