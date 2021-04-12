@@ -18,9 +18,9 @@ Novalnet merchant account is required for processing all international and local
 ## Key features
 *	Seamless and fast integration of the payment plugin
 *	Secure SSL- encoded gateways
-*	Credit Card iframe integration
-*	Credit Card with 3D Secure
-*	Custom CSS configuration for Credit Card iframe
+*	Credit/Debit Card iframe integration
+*	Credit/Debit Card with 3D Secure
+*	Custom CSS configuration for Credit/Debit Card iframe
 *	On-hold transaction configuration in the shop admin panel
 *	Automatic order creation on subscription renewal
 *	Subscription cancellation access for admin
