@@ -1,5 +1,5 @@
 # Easy Digital Downloads Payment Plugin by Novalnet
-Novalnet payment plugin for Easy Digital Downloads simplifies your daily work by automating the entire payment process, from checkout till collection. This plugin is designed to help you increase your sales by offering various payment methods on a one-page checkout.
+<a href="https://www.novalnet.de/">Novalnet</a> payment plugin for <a href="https://www.novalnet.com/modul/easy-digital-downloads">Easy Digital Downloads</a> simplifies your daily work by automating the entire payment process, from checkout till collection. This plugin is designed to help you increase your sales by offering various payment methods on a one-page checkout.
 
 ## Easy Digital Downloads Plugin Integration Requirements
 Novalnet merchant account is required for processing all international and local payments through this Easy Digital Downloads payment plugin. The plugin is available for Wordpress versions 5.0 to 5.7, and Easy Digital Downloads versions 2.8.x to 2.10.2 in the following languages: EN & DE
@@ -66,4 +66,4 @@ sales@novalnet.de <br>
 +49 89 9230683-20
 
 ## Who is Novalnet?
-Novalnet is a <a href="https://www.novalnet.de/">German payment provider</a> offering payment gateway for online merchants and marketplaces worldwide. Our PCI DSS certified SaaS engine is designed to automate the entire payment process from checkout to debt collection – with a single integration. We cover real-time risk management, secure payments (local + international) through escrow accounts, receivables management, dynamic member and subscription management as well as other customized payment solutions to your shop with Easy Digital Downloads.
+Novalnet is a <a href="https://www.novalnet.de/zahlungsinstitut"> leading financial service institution </a> offering payment gateway for online merchants and marketplaces worldwide. Our PCI DSS certified SaaS engine is designed to automate the entire payment process from checkout to debt collection – with a single integration. We cover real-time risk management, secure payments (local + international) through escrow accounts, receivables management, dynamic member and subscription management as well as other customized payment solutions to your shop with Easy Digital Downloads.
