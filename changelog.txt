@@ -1,5 +1,9 @@
 *** Changelog ***
 
+= 2.1.1 - 2021.11.26 =
+* Fix      - Updated IP address to get the actual IP of Novalnet server
+* Enhanced - Client key configuration set hidden in Novalnet Global configuration
+
 = 2.1.0 - 2021.04.12 =
 
 * New		- Implemented enforce 3D secure payment for countries outside EU
