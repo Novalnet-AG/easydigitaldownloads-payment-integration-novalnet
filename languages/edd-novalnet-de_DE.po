@@ -1,0 +1,1492 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Novalnet Payment Gateway for Easy Digital Downloads - "
+"Version 2.2.0\n"
+"POT-Creation-Date: 2022-09-29 12:42+0530\n"
+"PO-Revision-Date: 2022-09-29 12:56+0530\n"
+"Last-Translator: novalnet <sales@novalnet.de>\n"
+"Language-Team: Novalnet <sales@novalnet.de>\n"
+"Language: de\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.0.6\n"
+"X-Poedit-KeywordsList: _;gettext;gettext_noop;__;_e\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-SearchPath-0: /var/www/dev/edd-novalnet-gateway\n"
+
+#: class-novalnet.php:143
+msgid ""
+"<b>Easy Digital Downloads Payment Gateway by Novalnet</b>add-on requires <a "
+"href=\"https://easydigitaldownloads.com\" target=\"_new\"> Easy Digital "
+"Downloads</a> plugin. Please install and activate it."
+msgstr ""
+"<b>Easy Digital Downloads Zahlungsweisen per Novalnet</b>verlangt <a href="
+"\"https://easydigitaldownloads.com\" target=\"_new\"> Easy Digital "
+"Downloads</a> Steck-. Installieren Sie bitte und aktivieren Sie es."
+
+#: class-novalnet.php:143
+msgid ""
+"<b>Easy Digital Downloads Payment Gateway by Novalnet</b>requires PHP CURL. "
+"You need to activate the CURL function on your server. Please contact your "
+"hosting provider."
+msgstr ""
+"<b>Easy Digital Downloads Zahlungsweisen per Novalnet</b>verlangt PHP CURL. "
+"Sie müssen die CURL-Funktion auf Ihrem Server aktivieren. Bitte wenden Sie "
+"sich an Ihren Hosting-Provider."
+
+#: includes/admin/class-novalnet-global-config.php:74
+#: includes/class-novalnet-subscriptions.php:288
+msgid "--Select--"
+msgstr "--Auswählen--"
+
+#: includes/admin/class-novalnet-global-config.php:99
+msgid "Novalnet Global Configuration"
+msgstr "Novalnet Globale Konfiguration"
+
+#: includes/admin/class-novalnet-global-config.php:141
+msgid "Novalnet API Configuration"
+msgstr "Novalnet API-Konfiguration"
+
+#: includes/admin/class-novalnet-global-config.php:141
+#, php-format
+msgid ""
+"Please read the Installation Guide before you start and login to the <a href="
+"\"%s\" target=\"blank\">Novalnet Admin Portal</a> using your merchant "
+"account. To get a merchant account, mail to <a href=\"mailto:sales@novalnet."
+"de\">sales@novalnet.de</a> or call +49 (089) 923068320."
+msgstr ""
+"Bevor Sie beginnen, lesen Sie bitte die Installationsanleitung und melden "
+"Sie sich mit Ihrem Händlerkonto im <a href=\"%s\" target=\"blank\">Novalnet "
+"Admin-Portal</a> an. Um ein Händlerkonto zu erhalten, senden Sie bitte eine "
+"E-Mail an <a href=\"mailto:sales@novalnet.de\">sales@novalnet.de</a> oder "
+"rufen Sie uns unter +49 89 923068320 an."
+
+#: includes/admin/class-novalnet-global-config.php:142
+#: includes/gateways/class-novalnet-cashpayment.php:181
+#: includes/gateways/class-novalnet-cc.php:302
+#: includes/gateways/class-novalnet-eps.php:178
+#: includes/gateways/class-novalnet-giropay.php:178
+#: includes/gateways/class-novalnet-ideal.php:178
+#: includes/gateways/class-novalnet-instantbank.php:177
+#: includes/gateways/class-novalnet-invoice.php:229
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:178
+#: includes/gateways/class-novalnet-paypal.php:193
+#: includes/gateways/class-novalnet-prepayment.php:192
+#: includes/gateways/class-novalnet-przelewy24.php:182
+#: includes/gateways/class-novalnet-sepa.php:254
+msgid "Configure the gateway settings"
+msgstr "Konfigurieren Sie die Gateway-Einstellungen"
+
+#: includes/admin/class-novalnet-global-config.php:147
+#: includes/admin/class-novalnet-global-config.php:151
+msgid "Product activation key"
+msgstr "Aktivierungsschlüssel des Produkts"
+
+#: includes/admin/class-novalnet-global-config.php:152
+msgid ""
+"Your product activation key is a unique token for merchant authentication "
+"and payment processing."
+msgstr ""
+"Bitte geben Sie den Novalnet-Produktaktivierungsschlüssel an. Dieser ist für "
+"die Authentifizierung und Zahlungsabwicklung erforderlich."
+
+#: includes/admin/class-novalnet-global-config.php:154
+#, php-format
+msgid ""
+"Get your Product activation key from the <a href='%s' "
+"target='blank'>Novalnet Admin Portal</a>: Projects > Choose your project > "
+"API credentials > API Signature (Product activation key)"
+msgstr ""
+"Ihren Produktaktivierungsschlüssel finden Sie im <a href='%s' "
+"target='blank'>Novalnet Admin-Portal</a>: Projekte > Wählen Sie Ihr Projekt "
+"> API-Anmeldeinformationen > API Signature (Produktaktivierungsschlüssel)"
+
+#: includes/admin/class-novalnet-global-config.php:158
+msgid "Merchant ID "
+msgstr "Händler-ID "
+
+#: includes/admin/class-novalnet-global-config.php:164
+msgid "Authentication code"
+msgstr "Authentifizierungscode"
+
+#: includes/admin/class-novalnet-global-config.php:170
+msgid "Project ID"
+msgstr "Projekt-ID"
+
+#: includes/admin/class-novalnet-global-config.php:176
+#: includes/admin/class-novalnet-global-config.php:177
+msgid "Select Tariff ID"
+msgstr "Auswahl der Tarif-ID"
+
+#: includes/admin/class-novalnet-global-config.php:178
+msgid ""
+"Select a Tariff ID to match the preferred tariff plan you created at the "
+"Novalnet Admin Portal for this project."
+msgstr ""
+"Wählen Sie eine Tarif-ID, die dem bevorzugten Tarifplan entspricht, den Sie "
+"im Novalnet Admin-Portal \n"
+"für dieses Projekt erstellt haben."
+
+#: includes/admin/class-novalnet-global-config.php:184
+msgid "Payment access key"
+msgstr "Zahlungs-Zugriffsschlüssel"
+
+#: includes/admin/class-novalnet-global-config.php:190
+msgid "Client Key"
+msgstr "Schlüsselkunde"
+
+#: includes/admin/class-novalnet-global-config.php:196
+#: includes/admin/class-novalnet-global-config.php:197
+msgid "Display payment logo"
+msgstr "Zahlungslogo anzeigen"
+
+#: includes/admin/class-novalnet-global-config.php:198
+msgid "The payment method logo(s) will be displayed on the checkout page. "
+msgstr "Das Logo der Zahlungsart wird auf der Checkout-Seite angezeigt "
+
+#: includes/admin/class-novalnet-global-config.php:201
+#: includes/admin/class-novalnet-global-config.php:239
+#: includes/admin/class-novalnet-global-config.php:282
+#: includes/admin/class-novalnet-global-config.php:294
+#: includes/gateways/class-novalnet-cc.php:342
+#: includes/gateways/class-novalnet-invoice.php:349
+#: includes/gateways/class-novalnet-sepa.php:367
+msgid "No"
+msgstr "Nein"
+
+#: includes/admin/class-novalnet-global-config.php:202
+#: includes/admin/class-novalnet-global-config.php:240
+#: includes/admin/class-novalnet-global-config.php:283
+#: includes/admin/class-novalnet-global-config.php:295
+#: includes/gateways/class-novalnet-cc.php:341
+#: includes/gateways/class-novalnet-invoice.php:350
+#: includes/gateways/class-novalnet-sepa.php:368
+msgid "Yes"
+msgstr "Ja"
+
+#: includes/admin/class-novalnet-global-config.php:208
+msgid "Order status management for on-hold transactions"
+msgstr "Verwaltung des Bestellstatus für ausgesetzte Zahlungen"
+
+#: includes/admin/class-novalnet-global-config.php:213
+#: includes/admin/class-novalnet-global-config.php:217
+msgid "On-hold order status"
+msgstr "On-hold-Bestellstatus"
+
+#: includes/admin/class-novalnet-global-config.php:218
+msgid ""
+"Status to be used for on-hold orders until the transaction is confirmed or "
+"canceled."
+msgstr ""
+"Wählen Sie, welcher Status für On-hold-Bestellungen verwendet wird, solange "
+"diese nicht bestätigt oder storniert worden sind."
+
+#: includes/admin/class-novalnet-global-config.php:222
+#: includes/admin/class-novalnet-global-config.php:226
+msgid "Canceled order status"
+msgstr "Status für stornierte Bestellungen"
+
+#: includes/admin/class-novalnet-global-config.php:227
+msgid "Status to be used when order is canceled or fully refunded."
+msgstr ""
+"Wählen Sie, welcher Status für stornierte oder voll erstattete Bestellungen "
+"verwendet wird."
+
+#: includes/admin/class-novalnet-global-config.php:231
+msgid "Dynamic subscription management"
+msgstr "Verwaltung dynamischer Abonnements"
+
+#: includes/admin/class-novalnet-global-config.php:236
+msgid "Enable subscriptions"
+msgstr "Abonnement aktivieren"
+
+#: includes/admin/class-novalnet-global-config.php:245
+msgid "Subscription payments"
+msgstr "Abonnement-Zahlungen"
+
+#: includes/admin/class-novalnet-global-config.php:253
+#: includes/gateways/class-novalnet-cc.php:124
+#: includes/gateways/class-novalnet-cc.php:139
+#: includes/gateways/class-novalnet-cc.php:301
+msgid "Novalnet Credit/Debit Cards"
+msgstr "Novalnet Kredit- / Debitkarte"
+
+#: includes/admin/class-novalnet-global-config.php:254
+#: includes/gateways/class-novalnet-sepa.php:81
+#: includes/gateways/class-novalnet-sepa.php:96
+#: includes/gateways/class-novalnet-sepa.php:253
+msgid "Novalnet Direct Debit SEPA"
+msgstr "Novalnet Lastschrift SEPA"
+
+#: includes/admin/class-novalnet-global-config.php:255
+#: includes/gateways/class-novalnet-invoice.php:78
+#: includes/gateways/class-novalnet-invoice.php:93
+#: includes/gateways/class-novalnet-invoice.php:228
+msgid "Novalnet Invoice"
+msgstr "Novalnet Kauf auf Rechnung"
+
+#: includes/admin/class-novalnet-global-config.php:256
+#: includes/gateways/class-novalnet-prepayment.php:64
+#: includes/gateways/class-novalnet-prepayment.php:79
+#: includes/gateways/class-novalnet-prepayment.php:191
+msgid "Novalnet Prepayment"
+msgstr "Novalnet Vorkasse"
+
+#: includes/admin/class-novalnet-global-config.php:257
+#: includes/gateways/class-novalnet-paypal.php:66
+#: includes/gateways/class-novalnet-paypal.php:81
+#: includes/gateways/class-novalnet-paypal.php:192
+msgid "Novalnet PayPal"
+msgstr "Novalnet PayPal"
+
+#: includes/admin/class-novalnet-global-config.php:264
+#: includes/admin/class-novalnet-global-config.php:265
+msgid "Subscription Tariff ID"
+msgstr "Tarif-ID des Abonnements"
+
+#: includes/admin/class-novalnet-global-config.php:266
+msgid ""
+"Select the preferred Novalnet subscription tariff ID available for your "
+"project. For more information, please refer the Installation Guide."
+msgstr ""
+"Wählen Sie Ihre gewünschte Tarif-ID des Abonnements, die für Ihr Projekt "
+"verfügbar ist. Weitere Informationen finden Sie in der "
+"Installationsanleitung."
+
+#: includes/admin/class-novalnet-global-config.php:271
+msgid "Notification / Webhook URL Setup"
+msgstr "Notifikation & Webhook -URL Einrichten"
+
+#: includes/admin/class-novalnet-global-config.php:277
+#: includes/admin/class-novalnet-global-config.php:278
+msgid "Allow manual testing of the Notification / Webhook URL"
+msgstr "Manuelles Testen der Benachrichtigungs- / Webhook-URL erlauben"
+
+#: includes/admin/class-novalnet-global-config.php:279
+msgid ""
+"Enable this to test the Novalnet Notification / Webhook URL manually. "
+"Disable this before setting your shop live to block unauthorized calls from "
+"external parties."
+msgstr ""
+"Aktivieren Sie diese Option, um die Novalnet-Benachrichtigungs-/Webhook-URL "
+"manuell zu testen. Deaktivieren Sie die Option, bevor Sie Ihren Shop "
+"liveschalten, um unautorisierte Zugriffe von Dritten zu blockieren."
+
+#: includes/admin/class-novalnet-global-config.php:289
+#: includes/admin/class-novalnet-global-config.php:290
+msgid "Enable e-mail notification"
+msgstr "E-Mail-Benachrichtigungen einschalten"
+
+#: includes/admin/class-novalnet-global-config.php:291
+msgid ""
+"Enable this option to notify the given e-mail address when the "
+"Notification / Webhook URL is executed successfully."
+msgstr ""
+"Aktivieren Sie diese Option, um die angegebene E-Mail-Adresse zu "
+"benachrichtigen, wenn die Benachrichtigungs- / Webhook-URL erfolgreich "
+"ausgeführt wurde."
+
+#: includes/admin/class-novalnet-global-config.php:301
+#: includes/admin/class-novalnet-global-config.php:302
+msgid "Send e-mail to"
+msgstr "E-Mails senden an"
+
+#: includes/admin/class-novalnet-global-config.php:303
+msgid ""
+"Notification / Webhook URL execution messages will be sent to this e-mail."
+msgstr "E-Mail-Benachrichtigungen werden an diese E-Mail-Adresse gesendet."
+
+#: includes/admin/class-novalnet-global-config.php:309
+msgid "Notification / Webhook URL"
+msgstr "Notifikation & Webhook -URL"
+
+#: includes/admin/class-novalnet-global-config.php:319
+#, php-format
+msgid ""
+"You must add the following webhook endpoint to your <a href=\"%s\" target="
+"\"blank\">Novalnet Admin Portal</a> . This will allow you to receive "
+"notifications about the transaction status."
+msgstr ""
+"Sie müssen die folgende Webhook-URL im <a href=\"%s\" target=\"blank"
+"\">Novalnet Admin-Portal</a>hinzufügen. Dadurch können Sie "
+"Benachrichtigungen über den Transaktionsstatus erhalten."
+
+#: includes/admin/class-novalnet-global-config.php:349
+#, php-format
+msgid ""
+"You need to configure your outgoing server IP address ( %s ) at Novalnet. "
+"Please configure it in Novalnet Admin Portal or contact technic@novalnet.de"
+msgstr ""
+"Sie müssen die IP-Adresse Ihres Outgoing-Servers ( %s ) abei Novalnet "
+"hinterlegen. Bitte hinterlegen Sie diese im Novalnet Admin-Portal oder "
+"kontaktieren Sie uns unter technic@novalnet.de"
+
+#: includes/admin/class-novalnet-global-config.php:355
+#: includes/novalnet-functions.php:325 includes/novalnet-functions.php:602
+msgid "Please fill in all the mandatory fields"
+msgstr "Füllen Sie bitte alle Pflichtfelder aus"
+
+#: includes/api/class-novalnet-callback-api.php:301
+#: includes/api/class-novalnet-callback-api.php:694
+#, php-format
+msgid "The transaction has been canceled on %1$s."
+msgstr "Die Transaktion wurde am %1$s Uhr storniert."
+
+#: includes/api/class-novalnet-callback-api.php:579
+msgid "Next charging date: "
+msgstr "Nächstes Belastungsdatum: "
+
+#: includes/api/class-novalnet-callback-api.php:582
+#, php-format
+msgid ""
+"Subscription has been successfully renewed for the TID: %1$s with the amount "
+"%2$s on %3$s. The renewal TID is: %4$s"
+msgstr ""
+"Das Abonnement wurde erfolgreich für die TID erneuert: %1$s Betrag: %2$s am "
+"%3$s Uhr. TID der Folgebuchung: %4$s"
+
+#: includes/api/class-novalnet-callback-api.php:636
+#: includes/class-novalnet-subscriptions.php:268
+msgid "The subscription has been already stopped or cancelled"
+msgstr "Das Abonnement wurde schon beendet oder gekündigt"
+
+#: includes/api/class-novalnet-callback-api.php:670
+#: includes/novalnet-functions.php:1155
+msgid "Other"
+msgstr "Sonstige"
+
+#: includes/api/class-novalnet-callback-api.php:699
+#, php-format
+msgid "Subscription has been stopped for the TID: %1$s on %2$s."
+msgstr "Das Abonnement wurde für die TID: %1$s am%2$s."
+
+#: includes/api/class-novalnet-callback-api.php:705
+#, php-format
+msgid "Subscription has been canceled due to: %1$s"
+msgstr "Das Abonnement wurde gekündigt wegen: %1$s"
+
+#: includes/api/class-novalnet-callback-api.php:765
+#, php-format
+msgid "Subscription has been reactivated for the TID: %1$s on %2$s."
+msgstr "Das Abonnement wurde für die TID: %1$s reaktiviert am%2$s."
+
+#: includes/api/class-novalnet-callback-api.php:812
+#, php-format
+msgid "The transaction has been confirmed on %1$s"
+msgstr "Die Buchung wurde am %1$s Uhr bestätigt"
+
+#: includes/api/class-novalnet-callback-api.php:817
+#, php-format
+msgid ""
+"The transaction status has been changed from pending to on-hold for the TID: "
+"%1$s on %2$s."
+msgstr ""
+"Der Status der Transaktion mit der TID: %1$s wurde am %2$s Uhr von "
+"ausstehend auf ausgesetzt geändert."
+
+#: includes/api/class-novalnet-callback-api.php:843
+#, php-format
+msgid "Transaction updated successfully for the TID: %1$s on %2$s."
+msgstr "Transaktion mit TID: %1$s wurde am %2$s erfolgreich aktualisiert."
+
+#: includes/api/class-novalnet-callback-api.php:870
+#, php-format
+msgid "The transaction has been canceled due to: %s"
+msgstr "Die Transaktion wurde storniert. Grund: %s"
+
+#: includes/api/class-novalnet-callback-api.php:904
+#, php-format
+msgid ""
+"Refund has been initiated for the TID: %1$s with the amount %2$s. New TID: "
+"%3$s."
+msgstr ""
+"Die Rückerstattung für die TID %1$s mit dem Betrag %2$s wurde veranlasst. "
+"Neue TID %3$s."
+
+#: includes/api/class-novalnet-callback-api.php:907
+#, php-format
+msgid ""
+"Chargeback executed for return debit of TID:%1$s with the amount %2$s on "
+"%3$s. The subsequent TID: %4$s."
+msgstr ""
+"Chargeback für Rücklastschrift mit dem Betrag %2$s am %3$s für TID %1$s "
+"ausgeführt. Die neue TID lautet: %4$s."
+
+#: includes/api/class-novalnet-callback-api.php:910
+#, php-format
+msgid ""
+"Chargeback executed for reversal of TID: %1$s with the amount %2$s on %3$s. "
+"The subsequent TID: %4$s."
+msgstr ""
+"Chargeback für Rücküberweisung mit dem Betrag %2$s am %3$s für TID %1$s "
+"ausgeführt. Die neue TID lautet: %4$s."
+
+#: includes/api/class-novalnet-callback-api.php:913
+#, php-format
+msgid ""
+"Chargeback executed successfully for the TID: %1$s amount: %2$s on %3$s. The "
+"subsequent TID: %4$s."
+msgstr ""
+"Chargeback erfolgreich importiert für die TID: %1$s Betrag: %2$s am %3$s "
+"Uhr. TID der Folgebuchung: %4$s."
+
+#: includes/api/class-novalnet-callback-api.php:937
+#: includes/api/class-novalnet-callback-api.php:940
+#: includes/api/class-novalnet-callback-api.php:966
+#, php-format
+msgid ""
+"Credit has been successfully received for the TID: %1$s with amount %2$s on "
+"%3$s . Please refer PAID order details in our Novalnet Admin Portal for the "
+"TID: %4$s "
+msgstr ""
+"Die Gutschrift für die TID ist erfolgreich eingegangen: %1$s mit Betrag %2$s "
+"am %3$s . Bitte entnehmen Sie die TID den Einzelheiten der Bestellung bei "
+"BEZAHLT in unserem Novalnet Adminportal: %4$s "
+
+#: includes/class-novalnet-subscriptions.php:127
+msgid "Invalid subscription id"
+msgstr "Ungültig Abonnement"
+
+#: includes/class-novalnet-subscriptions.php:178
+#: includes/gateways/class-novalnet-sepa.php:204
+msgid "Your account details are invalid"
+msgstr "Ihre Kontodaten sind ungültig"
+
+#: includes/class-novalnet-subscriptions.php:267
+msgid "Please select the reason for subscription cancellation"
+msgstr "Bitte wählen Sie den Grund für die Kündigung des Abonnements"
+
+#: includes/class-novalnet-subscriptions.php:292
+msgid "Cancel"
+msgstr "Stornieren"
+
+#: includes/class-novalnet-subscriptions.php:341
+#, php-format
+msgid "Subscription has been canceled due to: %s"
+msgstr "Das Abonnement wurde gekündigt wegen: %s"
+
+#: includes/gateways/class-novalnet-cashpayment.php:63
+#: includes/gateways/class-novalnet-cashpayment.php:77
+#: includes/gateways/class-novalnet-cashpayment.php:180
+msgid "Novalnet Barzahlen/viacash"
+msgstr "Novalnet Barzahlen/viacash"
+
+#: includes/gateways/class-novalnet-cashpayment.php:78
+msgid "Barzahlen/viacash "
+msgstr "Barzahlen/viacash "
+
+#: includes/gateways/class-novalnet-cashpayment.php:96
+msgid "Barzahlen/viacash"
+msgstr "Barzahlen/viacash"
+
+#: includes/gateways/class-novalnet-cashpayment.php:108
+msgid ""
+"On successful checkout, you will receive a payment slip/SMS to pay your "
+"online purchase at one of our retail partners (e.g. supermarket)."
+msgstr ""
+"Nach erfolgreichem Bestellabschluss erhalten Sie einen Zahlschein bzw. eine "
+"SMS. Damit können Sie Ihre Online-Bestellung bei einem unserer Partner im "
+"Einzelhandel (z.B. Drogerie, Supermarkt etc.) bezahlen."
+
+#: includes/gateways/class-novalnet-cashpayment.php:126
+#: includes/gateways/class-novalnet-cashpayment.php:189
+#: includes/gateways/class-novalnet-cc.php:189
+#: includes/gateways/class-novalnet-cc.php:310
+#: includes/gateways/class-novalnet-eps.php:128
+#: includes/gateways/class-novalnet-eps.php:186
+#: includes/gateways/class-novalnet-giropay.php:129
+#: includes/gateways/class-novalnet-giropay.php:186
+#: includes/gateways/class-novalnet-ideal.php:128
+#: includes/gateways/class-novalnet-ideal.php:186
+#: includes/gateways/class-novalnet-instantbank.php:127
+#: includes/gateways/class-novalnet-instantbank.php:185
+#: includes/gateways/class-novalnet-invoice.php:237
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:128
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:186
+#: includes/gateways/class-novalnet-paypal.php:130
+#: includes/gateways/class-novalnet-paypal.php:201
+#: includes/gateways/class-novalnet-prepayment.php:128
+#: includes/gateways/class-novalnet-prepayment.php:200
+#: includes/gateways/class-novalnet-przelewy24.php:130
+#: includes/gateways/class-novalnet-przelewy24.php:190
+#: includes/gateways/class-novalnet-sepa.php:262
+#: templates/invoice-template.php:50 templates/sepa-template.php:50
+msgid ""
+"The payment will be processed in the test mode therefore amount for this "
+"transaction will not be charged"
+msgstr ""
+"Die Zahlung wird im Testmodus durchgeführt, daher wird der Betrag für diese "
+"Transaktion nicht eingezogen"
+
+#: includes/gateways/class-novalnet-cashpayment.php:186
+#: includes/gateways/class-novalnet-cashpayment.php:188
+#: includes/gateways/class-novalnet-cc.php:307
+#: includes/gateways/class-novalnet-cc.php:309
+#: includes/gateways/class-novalnet-eps.php:183
+#: includes/gateways/class-novalnet-eps.php:185
+#: includes/gateways/class-novalnet-giropay.php:183
+#: includes/gateways/class-novalnet-giropay.php:185
+#: includes/gateways/class-novalnet-ideal.php:183
+#: includes/gateways/class-novalnet-ideal.php:185
+#: includes/gateways/class-novalnet-instantbank.php:182
+#: includes/gateways/class-novalnet-instantbank.php:184
+#: includes/gateways/class-novalnet-invoice.php:234
+#: includes/gateways/class-novalnet-invoice.php:236
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:183
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:185
+#: includes/gateways/class-novalnet-paypal.php:198
+#: includes/gateways/class-novalnet-paypal.php:200
+#: includes/gateways/class-novalnet-prepayment.php:197
+#: includes/gateways/class-novalnet-prepayment.php:199
+#: includes/gateways/class-novalnet-przelewy24.php:187
+#: includes/gateways/class-novalnet-przelewy24.php:189
+#: includes/gateways/class-novalnet-sepa.php:259
+#: includes/gateways/class-novalnet-sepa.php:261
+msgid "Enable test mode"
+msgstr "Testmodus aktivieren"
+
+#: includes/gateways/class-novalnet-cashpayment.php:193
+#: includes/gateways/class-novalnet-cashpayment.php:197
+msgid "Slip expiry date (in days)"
+msgstr "Verfallsdatum des Zahlscheins (in Tagen)"
+
+#: includes/gateways/class-novalnet-cashpayment.php:198
+msgid ""
+"Number of days given to the buyer to pay at a store. If this field is left "
+"blank, 14 days will be set as slip expiry date by default. "
+msgstr ""
+"Anzahl der Tage, die der Käufer Zeit hat, um den Betrag in einer Filiale zu "
+"bezahlen. Wenn Sie dieses Feld leer lassen, ist der Zahlschein standardmäßig "
+"14 Tage lang gültig.  "
+
+#: includes/gateways/class-novalnet-cashpayment.php:202
+#: includes/gateways/class-novalnet-cashpayment.php:206
+#: includes/gateways/class-novalnet-cc.php:348
+#: includes/gateways/class-novalnet-cc.php:352
+#: includes/gateways/class-novalnet-eps.php:190
+#: includes/gateways/class-novalnet-eps.php:194
+#: includes/gateways/class-novalnet-giropay.php:190
+#: includes/gateways/class-novalnet-giropay.php:194
+#: includes/gateways/class-novalnet-ideal.php:190
+#: includes/gateways/class-novalnet-ideal.php:194
+#: includes/gateways/class-novalnet-instantbank.php:189
+#: includes/gateways/class-novalnet-instantbank.php:193
+#: includes/gateways/class-novalnet-invoice.php:273
+#: includes/gateways/class-novalnet-invoice.php:277
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:190
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:194
+#: includes/gateways/class-novalnet-paypal.php:236
+#: includes/gateways/class-novalnet-paypal.php:240
+#: includes/gateways/class-novalnet-prepayment.php:214
+#: includes/gateways/class-novalnet-prepayment.php:218
+#: includes/gateways/class-novalnet-przelewy24.php:203
+#: includes/gateways/class-novalnet-przelewy24.php:207
+#: includes/gateways/class-novalnet-sepa.php:299
+#: includes/gateways/class-novalnet-sepa.php:303
+msgid "Completed order status"
+msgstr "Status für erfolgreichen Auftragsabschluss"
+
+#: includes/gateways/class-novalnet-cashpayment.php:207
+#: includes/gateways/class-novalnet-cc.php:353
+#: includes/gateways/class-novalnet-eps.php:195
+#: includes/gateways/class-novalnet-giropay.php:195
+#: includes/gateways/class-novalnet-ideal.php:195
+#: includes/gateways/class-novalnet-instantbank.php:194
+#: includes/gateways/class-novalnet-invoice.php:278
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:195
+#: includes/gateways/class-novalnet-paypal.php:241
+#: includes/gateways/class-novalnet-prepayment.php:219
+#: includes/gateways/class-novalnet-przelewy24.php:208
+#: includes/gateways/class-novalnet-sepa.php:304
+msgid "Status to be used for successful orders."
+msgstr ""
+"Wählen Sie, welcher Status für erfolgreich abgeschlossene Bestellungen "
+"verwendet wird."
+
+#: includes/gateways/class-novalnet-cashpayment.php:211
+#: includes/gateways/class-novalnet-cashpayment.php:215
+#: includes/gateways/class-novalnet-invoice.php:282
+#: includes/gateways/class-novalnet-invoice.php:286
+#: includes/gateways/class-novalnet-prepayment.php:223
+#: includes/gateways/class-novalnet-prepayment.php:227
+msgid "Callback / Webhook order status"
+msgstr "Callback / Webhook Bestellstatus"
+
+#: includes/gateways/class-novalnet-cashpayment.php:216
+#: includes/gateways/class-novalnet-invoice.php:287
+#: includes/gateways/class-novalnet-prepayment.php:228
+msgid ""
+"Status to be used when callback script is executed for payment received by "
+"Novalnet."
+msgstr ""
+"Status, der zu verwendet wird, wenn das Callback-Skript für eine bei "
+"Novalnet eingegangene Zahlung ausgeführt wird."
+
+#: includes/gateways/class-novalnet-cashpayment.php:220
+#: includes/gateways/class-novalnet-cc.php:357
+#: includes/gateways/class-novalnet-eps.php:199
+#: includes/gateways/class-novalnet-giropay.php:199
+#: includes/gateways/class-novalnet-ideal.php:199
+#: includes/gateways/class-novalnet-instantbank.php:198
+#: includes/gateways/class-novalnet-invoice.php:291
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:199
+#: includes/gateways/class-novalnet-paypal.php:245
+#: includes/gateways/class-novalnet-prepayment.php:232
+#: includes/gateways/class-novalnet-przelewy24.php:212
+#: includes/gateways/class-novalnet-sepa.php:308
+msgid "Notification for the buyer"
+msgstr "Benachrichtigung des Käufers"
+
+#: includes/gateways/class-novalnet-cashpayment.php:223
+#: includes/gateways/class-novalnet-cc.php:360
+#: includes/gateways/class-novalnet-eps.php:202
+#: includes/gateways/class-novalnet-giropay.php:202
+#: includes/gateways/class-novalnet-ideal.php:202
+#: includes/gateways/class-novalnet-instantbank.php:201
+#: includes/gateways/class-novalnet-invoice.php:294
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:202
+#: includes/gateways/class-novalnet-paypal.php:248
+#: includes/gateways/class-novalnet-prepayment.php:235
+#: includes/gateways/class-novalnet-przelewy24.php:215
+#: includes/gateways/class-novalnet-sepa.php:311
+msgid "The entered text will be displayed at the checkout page"
+msgstr "Der eingegebene Text wird auf der Checkout-Seite angezeigt"
+
+#: includes/gateways/class-novalnet-cc.php:80
+msgid "Card holder name"
+msgstr "Name des Karteninhabers"
+
+#: includes/gateways/class-novalnet-cc.php:81
+msgid "Name on card"
+msgstr "Name auf der Kreditkarte"
+
+#: includes/gateways/class-novalnet-cc.php:82
+msgid "Card number"
+msgstr "Kreditkartennummer"
+
+#: includes/gateways/class-novalnet-cc.php:83
+msgid "XXXX XXXX XXXX XXXX"
+msgstr "XXXX XXXX XXXX XXXX"
+
+#: includes/gateways/class-novalnet-cc.php:84
+msgid "Expiry date"
+msgstr "Ablaufdatum"
+
+#: includes/gateways/class-novalnet-cc.php:85
+msgid "CVC/CVV/CID"
+msgstr "CVC/CVV/CID"
+
+#: includes/gateways/class-novalnet-cc.php:86
+msgid "XXX"
+msgstr "XXX"
+
+#: includes/gateways/class-novalnet-cc.php:87
+#: includes/gateways/class-novalnet-cc.php:284
+msgid "Your credit card details are invalid"
+msgstr "Ihre Kreditkartendaten sind ungültig"
+
+#: includes/gateways/class-novalnet-cc.php:140
+#: includes/gateways/class-novalnet-cc.php:161
+msgid "Credit/Debit Cards"
+msgstr "Kredit- / Debitkarte"
+
+#: includes/gateways/class-novalnet-cc.php:173
+msgid ""
+"Your credit/debit card will be charged immediately after the order is "
+"completed"
+msgstr "Ihre Karte wird nach Bestellabschluss sofort belastet"
+
+#: includes/gateways/class-novalnet-cc.php:314
+#: includes/gateways/class-novalnet-cc.php:317
+#: includes/gateways/class-novalnet-invoice.php:250
+#: includes/gateways/class-novalnet-invoice.php:253
+#: includes/gateways/class-novalnet-paypal.php:205
+#: includes/gateways/class-novalnet-paypal.php:208
+#: includes/gateways/class-novalnet-sepa.php:277
+#: includes/gateways/class-novalnet-sepa.php:280
+msgid "Payment action"
+msgstr "Bearbeitungsmaßnahme"
+
+#: includes/gateways/class-novalnet-cc.php:318
+#: includes/gateways/class-novalnet-invoice.php:254
+#: includes/gateways/class-novalnet-paypal.php:209
+#: includes/gateways/class-novalnet-sepa.php:281
+msgid ""
+"Choose whether or not the payment should be charged immediately. Capture "
+"completes the transaction by transferring the funds from buyer account to "
+"merchant account. Authorize verifies payment details and reserves funds to "
+"capture it later, giving time for the merchant to decide on the order."
+msgstr ""
+"Wählen Sie, ob die Zahlung sofort belastet werden soll oder nicht. Zahlung "
+"einziehen: Betrag sofort belasten. Zahlung autorisieren: Die Zahlung wird "
+"überprüft und autorisiert, aber erst zu einem späteren Zeitpunkt belastet. "
+"So haben Sie Zeit, über die Bestellung zu entscheiden."
+
+#: includes/gateways/class-novalnet-cc.php:320
+#: includes/gateways/class-novalnet-invoice.php:256
+#: includes/gateways/class-novalnet-paypal.php:211
+#: includes/gateways/class-novalnet-sepa.php:283
+msgid "Capture"
+msgstr "Zahlung einziehen"
+
+#: includes/gateways/class-novalnet-cc.php:321
+#: includes/gateways/class-novalnet-invoice.php:257
+#: includes/gateways/class-novalnet-paypal.php:212
+#: includes/gateways/class-novalnet-sepa.php:284
+msgid "Authorize"
+msgstr "Zahlung autorisieren"
+
+#: includes/gateways/class-novalnet-cc.php:327
+#: includes/gateways/class-novalnet-cc.php:331
+#: includes/gateways/class-novalnet-invoice.php:263
+#: includes/gateways/class-novalnet-invoice.php:267
+#: includes/gateways/class-novalnet-paypal.php:218
+#: includes/gateways/class-novalnet-paypal.php:222
+#: includes/gateways/class-novalnet-sepa.php:290
+#: includes/gateways/class-novalnet-sepa.php:294
+msgid "Minimum transaction limit for authorization"
+msgstr "Mindesttransaktionsbetrag für die Autorisierung"
+
+#: includes/gateways/class-novalnet-cc.php:330
+#: includes/gateways/class-novalnet-invoice.php:266
+#: includes/gateways/class-novalnet-paypal.php:221
+#: includes/gateways/class-novalnet-sepa.php:293
+#: includes/gateways/class-novalnet-sepa.php:357
+msgid "<p>(in minimum unit of currency. E.g. enter 100 which is equal to 1.00)"
+msgstr ""
+"(in der kleinsten Währungseinheit, z.B. 100 Cent = entsprechen 1.00 EUR)"
+
+#: includes/gateways/class-novalnet-cc.php:332
+#: includes/gateways/class-novalnet-paypal.php:223
+#: includes/gateways/class-novalnet-sepa.php:295
+msgid ""
+"In case the order amount exceeds the mentioned limit, the transaction will "
+"be set on-hold till your confirmation of the transaction. You can leave the "
+"field empty if you wish to process all the transactions as on-hold."
+msgstr ""
+"Übersteigt der Bestellbetrag das genannte Limit, wird die Transaktion, bis "
+"zu ihrer Bestätigung durch Sie, auf on hold gesetzt. Sie können das Feld "
+"leer lassen, wenn Sie möchten, dass alle Transaktionen als on hold behandelt "
+"werden."
+
+#: includes/gateways/class-novalnet-cc.php:336
+#: includes/gateways/class-novalnet-cc.php:338
+msgid "Enforce 3D secure payment outside EU"
+msgstr "3D-Secure-Zahlungen außerhalb der EU erzwingen"
+
+#: includes/gateways/class-novalnet-cc.php:339
+msgid ""
+"By enabling this option, all payments from cards issued outside the EU will "
+"be authenticated via 3DS 2.0 SCA"
+msgstr ""
+"Wenn Sie diese Option aktivieren, werden alle Zahlungen mit Karten, die "
+"außerhalb der EU ausgegeben wurden, mit der starken Kundenauthentifizierung "
+"(Strong Customer Authentication, SCA) von 3D-Secure 2.0 authentifiziert"
+
+#: includes/gateways/class-novalnet-cc.php:363
+msgid "Custom CSS settings"
+msgstr "Angepasste CSS-Einstellungen"
+
+#: includes/gateways/class-novalnet-cc.php:368
+msgid "CSS settings for iframe form"
+msgstr "CSS-Einstellungen für den iFrameformular"
+
+#: includes/gateways/class-novalnet-cc.php:374
+msgid "Label"
+msgstr "Beschriftung"
+
+#: includes/gateways/class-novalnet-cc.php:375
+#: includes/gateways/class-novalnet-cc.php:383
+msgid "E.g: color:#999999; background-color:#FFFFFF;"
+msgstr "z.B: color:#999999; background-color:#FFFFFF;"
+
+#: includes/gateways/class-novalnet-cc.php:382
+msgid "Input"
+msgstr "Eingabe"
+
+#: includes/gateways/class-novalnet-cc.php:390
+msgid "CSS Text"
+msgstr "Text für das CSS"
+
+#: includes/gateways/class-novalnet-cc.php:391
+msgid "E.g: #idselector{color:#999999;}.classSelector{color:#000000}"
+msgstr "z.B: #idselector{color:#999999;}.classSelector{color:#000000}"
+
+#: includes/gateways/class-novalnet-eps.php:65
+#: includes/gateways/class-novalnet-eps.php:79
+#: includes/gateways/class-novalnet-eps.php:177
+msgid "Novalnet eps"
+msgstr "Novalnet eps"
+
+#: includes/gateways/class-novalnet-eps.php:80
+#: includes/gateways/class-novalnet-eps.php:99
+msgid "eps"
+msgstr "eps"
+
+#: includes/gateways/class-novalnet-eps.php:111
+msgid ""
+"You will be redirected to eps. Please don’t close or refresh the browser "
+"until the payment is completed"
+msgstr ""
+"Sie werden zu eps weitergeleitet. Um eine erfolgreiche Zahlung zu "
+"gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis "
+"die Bezahlung abgeschlossen ist"
+
+#: includes/gateways/class-novalnet-giropay.php:66
+#: includes/gateways/class-novalnet-giropay.php:81
+#: includes/gateways/class-novalnet-giropay.php:177
+msgid "Novalnet giropay"
+msgstr "Novalnet giropay"
+
+#: includes/gateways/class-novalnet-giropay.php:82
+#: includes/gateways/class-novalnet-giropay.php:100
+msgid "giropay"
+msgstr "giropay"
+
+#: includes/gateways/class-novalnet-giropay.php:112
+msgid ""
+"You will be redirected to giropay. Please don’t close or refresh the browser "
+"until the payment is completed"
+msgstr ""
+"Sie werden zu giropay weitergeleitet. Um eine erfolgreiche Zahlung zu "
+"gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis "
+"die Bezahlung abgeschlossen ist"
+
+#: includes/gateways/class-novalnet-ideal.php:66
+#: includes/gateways/class-novalnet-ideal.php:80
+#: includes/gateways/class-novalnet-ideal.php:177
+msgid "Novalnet iDEAL"
+msgstr "Novalnet iDEAL"
+
+#: includes/gateways/class-novalnet-ideal.php:81
+#: includes/gateways/class-novalnet-ideal.php:98
+msgid "iDEAL"
+msgstr "iDEAL"
+
+#: includes/gateways/class-novalnet-ideal.php:110
+msgid ""
+"You will be redirected to iDEAL. Please don’t close or refresh the browser "
+"until the payment is completed"
+msgstr ""
+"Sie werden zu iDEAL weitergeleitet. Um eine erfolgreiche Zahlung zu "
+"gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis "
+"die Bezahlung abgeschlossen ist"
+
+#: includes/gateways/class-novalnet-instantbank.php:66
+#: includes/gateways/class-novalnet-instantbank.php:80
+#: includes/gateways/class-novalnet-instantbank.php:176
+msgid "Novalnet Sofort"
+msgstr "Novalnet Sofortüberweisung"
+
+#: includes/gateways/class-novalnet-instantbank.php:81
+#: includes/gateways/class-novalnet-instantbank.php:98
+msgid "Sofort"
+msgstr "Sofortüberweisung"
+
+#: includes/gateways/class-novalnet-instantbank.php:110
+msgid ""
+"You will be redirected to Sofort. Please don’t close or refresh the browser "
+"until the payment is completed"
+msgstr ""
+"Sie werden zu Sofortüberweisung weitergeleitet. Um eine erfolgreiche Zahlung "
+"zu gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, "
+"bis die Bezahlung abgeschlossen ist"
+
+#: includes/gateways/class-novalnet-invoice.php:94
+#: includes/gateways/class-novalnet-invoice.php:117
+msgid "Invoice"
+msgstr "Kauf auf Rechnung"
+
+#: includes/gateways/class-novalnet-invoice.php:152
+#: includes/gateways/class-novalnet-sepa.php:210
+#, php-format
+msgid ""
+"The payment cannot be processed, because the basic requirements for the "
+"payment guarantee are not met ( %s )  "
+msgstr ""
+"Die Zahlung kann nicht ausgeführt werden, weil die Voraussetzungen für die "
+"Zahlungsgarantie nicht erfüllt sind ( %s ) "
+
+#: includes/gateways/class-novalnet-invoice.php:241
+#: includes/gateways/class-novalnet-invoice.php:245
+#: includes/gateways/class-novalnet-prepayment.php:204
+#: includes/gateways/class-novalnet-prepayment.php:209
+#: includes/gateways/class-novalnet-sepa.php:266
+#: includes/gateways/class-novalnet-sepa.php:272
+msgid "Payment due date (in days)"
+msgstr "Fälligkeitsdatum (in Tagen)"
+
+#: includes/gateways/class-novalnet-invoice.php:246
+#: includes/gateways/class-novalnet-prepayment.php:210
+msgid ""
+"Number of days given to the buyer to transfer the amount to Novalnet (must "
+"be greater than 7 days). If this field is left blank, 14 days will be set as "
+"due date by default. "
+msgstr ""
+"Anzahl der Tage, die der Käufer Zeit hat, um den Betrag an Novalnet zu "
+"überweisen (muss mehr als 7 Tage betragen). Wenn Sie dieses Feld leer "
+"lassen, werden standardmäßig 14 Tage als Fälligkeitsdatum festgelegt.  "
+
+#: includes/gateways/class-novalnet-invoice.php:268
+msgid ""
+"When the order amount exceeds the mentioned limit, the transaction will be "
+"set on-hold till you confirm it. You can leave the field empty if you wish "
+"to process all transactions as on-hold transactions. "
+msgstr ""
+"Übersteigt der Bestellbetrag das genannte Limit, wird die Transaktion, bis "
+"zu ihrer Bestätigung durch Sie, auf on hold gesetzt. Sie können das Feld "
+"leer lassen, wenn Sie möchten, dass alle Transaktionen als on hold behandelt "
+"werden. "
+
+#: includes/gateways/class-novalnet-invoice.php:299
+#: includes/gateways/class-novalnet-sepa.php:315
+msgid "Payment guarantee configuration"
+msgstr "Einstellungen für die Zahlungsgarantie"
+
+#: includes/gateways/class-novalnet-invoice.php:313
+#: includes/gateways/class-novalnet-sepa.php:329
+msgid "Payment guarantee requirements: "
+msgstr "Voraussetzungen für die Zahlungsgarantie: "
+
+#: includes/gateways/class-novalnet-invoice.php:314
+#: includes/gateways/class-novalnet-sepa.php:330
+msgid "Allowed countries: DE, AT, CH"
+msgstr "Zugelassene Staaten: DE, AT, CH"
+
+#: includes/gateways/class-novalnet-invoice.php:315
+#: includes/gateways/class-novalnet-sepa.php:331
+msgid "Allowed currency: EUR"
+msgstr "Zugelassene Währung: EUR"
+
+#: includes/gateways/class-novalnet-invoice.php:316
+#: includes/gateways/class-novalnet-sepa.php:332
+msgid "Minimum order amount: 9,99 EUR or more"
+msgstr "Mindestbetrag der Bestellung: 9,99 EUR"
+
+#: includes/gateways/class-novalnet-invoice.php:317
+#: includes/gateways/class-novalnet-sepa.php:333
+msgid "Age limit: 18 years or more"
+msgstr "Mindestalter: 18 Jahre"
+
+#: includes/gateways/class-novalnet-invoice.php:318
+#: includes/gateways/class-novalnet-sepa.php:334
+msgid "The billing address must be the same as the shipping address"
+msgstr "Rechnungsadresse und Lieferadresse müssen übereinstimmen"
+
+#: includes/gateways/class-novalnet-invoice.php:324
+#: includes/gateways/class-novalnet-sepa.php:341
+msgid "Enable payment guarantee"
+msgstr "Zahlungsgarantie aktivieren"
+
+#: includes/gateways/class-novalnet-invoice.php:329
+#: includes/gateways/class-novalnet-invoice.php:333
+#: includes/gateways/class-novalnet-paypal.php:227
+#: includes/gateways/class-novalnet-paypal.php:231
+#: includes/gateways/class-novalnet-przelewy24.php:194
+#: includes/gateways/class-novalnet-przelewy24.php:198
+#: includes/gateways/class-novalnet-sepa.php:346
+#: includes/gateways/class-novalnet-sepa.php:350
+msgid "Payment status for the pending payment"
+msgstr "Status für offene Zahlungen"
+
+#: includes/gateways/class-novalnet-invoice.php:334
+#: includes/gateways/class-novalnet-paypal.php:232
+#: includes/gateways/class-novalnet-przelewy24.php:199
+#: includes/gateways/class-novalnet-sepa.php:351
+msgid "Status to be used for pending transactions."
+msgstr "Status, der verwendet wird, wenn die Zahlung noch offen ist."
+
+#: includes/gateways/class-novalnet-invoice.php:338
+#: includes/gateways/class-novalnet-invoice.php:341
+#: includes/gateways/class-novalnet-sepa.php:355
+#: includes/gateways/class-novalnet-sepa.php:359
+msgid "Minimum order amount for payment guarantee"
+msgstr "Mindestbestellbetrag für Zahlungsgarantie"
+
+#: includes/gateways/class-novalnet-invoice.php:342
+#: includes/gateways/class-novalnet-sepa.php:360
+msgid ""
+"Enter the minimum amount (in cents) for the transaction to be processed with "
+"payment guarantee. For example, enter 100 which is equal to 1,00. By "
+"default, the amount will be 9,99 EUR."
+msgstr ""
+"Geben Sie den Mindestbetrag (in Cent) für die zu bearbeitende Transaktion "
+"mit Zahlungsgarantie ein. Geben Sie z.B. 100 ein, was 1,00 entspricht. Der "
+"Standbetrag ist 9,99 EUR."
+
+#: includes/gateways/class-novalnet-invoice.php:346
+#: includes/gateways/class-novalnet-invoice.php:353
+#: includes/gateways/class-novalnet-sepa.php:364
+#: includes/gateways/class-novalnet-sepa.php:371
+msgid "Force Non-Guarantee payment"
+msgstr "Zahlung ohne Zahlungsgarantie erzwingen"
+
+#: includes/gateways/class-novalnet-invoice.php:354
+#: includes/gateways/class-novalnet-sepa.php:372
+msgid ""
+"Even if payment guarantee is enabled, payments will still be processed as "
+"non-guarantee payments if the payment guarantee requirements are not met. "
+"Review the requirements under 'Enable Payment Guarantee' in the Installation "
+"Guide. "
+msgstr ""
+"Falls die Zahlungsgarantie zwar aktiviert ist, jedoch die Voraussetzungen "
+"für Zahlungsgarantie nicht erfüllt sind, wird die Zahlung ohne "
+"Zahlungsgarantie verarbeitet. Die Voraussetzungen finden Sie in der "
+"Installationsanleitung unter \"Zahlungsgarantie aktivieren\". "
+
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:67
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:81
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:177
+msgid "Novalnet Online Bank Transfer"
+msgstr "Novalnet Onlineüberweisung"
+
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:82
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:99
+msgid "Online Bank Transfer"
+msgstr "Onlineüberweisung"
+
+#: includes/gateways/class-novalnet-onlinebanktransfer.php:111
+msgid ""
+"You will be redirected to banking page. Please don’t close or refresh the "
+"browser until the payment is completed"
+msgstr ""
+"Sie werden auf die Banking-Seite weitergeleitet. Bitte schließen oder "
+"aktualisieren Sie den Browser nicht, bis die Zahlung abgeschlossen ist"
+
+#: includes/gateways/class-novalnet-paypal.php:82
+#: includes/gateways/class-novalnet-paypal.php:100
+msgid "PayPal"
+msgstr "PayPal"
+
+#: includes/gateways/class-novalnet-paypal.php:112
+msgid ""
+"You will be redirected to PayPal. Please don’t close or refresh the browser "
+"until the payment is completed"
+msgstr ""
+"Sie werden zu PayPal weitergeleitet. Um eine erfolgreiche Zahlung zu "
+"gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis "
+"die Bezahlung abgeschlossen ist"
+
+#: includes/gateways/class-novalnet-paypal.php:192
+#, php-format
+msgid ""
+"To accept PayPal transactions, configure your PayPal API info in the <a href="
+"\"%s\" target=\"_new\">Novalnet Admin Portal</a>: > <strong>PROJECT</"
+"strong> > <strong>Choose your project</strong> > <strong>Payment Methods</"
+"strong> > <strong>Paypal</strong> > <strong>Configure</strong>."
+msgstr ""
+"Um PayPal-Transaktionen zu akzeptieren, konfigurieren Sie Ihre PayPal-API-"
+"Informationen im <a href=\"%s\" target=\"_new\">Novalnet Admin-Portal</a>: "
+"<strong>PROJEKT</strong> > <strong>Wählen Sie Ihr Projekt</strong> > "
+"<strong>Projektübersicht</strong> > <strong>Zahlungsmethoden</strong> > "
+"<strong>PayPal > Konfigurieren</strong>."
+
+#: includes/gateways/class-novalnet-prepayment.php:80
+#: includes/gateways/class-novalnet-prepayment.php:98
+msgid "Prepayment"
+msgstr "Vorkasse"
+
+#: includes/gateways/class-novalnet-prepayment.php:110
+#: templates/invoice-template.php:32
+msgid ""
+"You will receive an e-mail with the Novalnet account details to complete the "
+"payment."
+msgstr ""
+"Sie erhalten eine E-Mail mit den Bankdaten von Novalnet, um die Zahlung "
+"abzuschließen."
+
+#: includes/gateways/class-novalnet-przelewy24.php:66
+#: includes/gateways/class-novalnet-przelewy24.php:81
+#: includes/gateways/class-novalnet-przelewy24.php:181
+msgid "Novalnet Przelewy24"
+msgstr "Novalnet Przelewy24"
+
+#: includes/gateways/class-novalnet-przelewy24.php:82
+#: includes/gateways/class-novalnet-przelewy24.php:100
+msgid "Przelewy24"
+msgstr "Przelewy24"
+
+#: includes/gateways/class-novalnet-przelewy24.php:112
+msgid ""
+"You will be redirected to Przelewy24. Please don’t close or refresh the "
+"browser until the payment is completed"
+msgstr ""
+"Sie werden zu Przelewy24 weitergeleitet. Um eine erfolgreiche Zahlung zu "
+"gewährleisten, darf die Seite nicht geschlossen oder neu geladen werden, bis "
+"die Bezahlung abgeschlossen ist"
+
+#: includes/gateways/class-novalnet-sepa.php:97
+#: includes/gateways/class-novalnet-sepa.php:121
+msgid "Direct Debit SEPA"
+msgstr "Lastschrift SEPA"
+
+#: includes/gateways/class-novalnet-sepa.php:273
+msgid ""
+"Number of days after which the payment is debited (must be between 2 and 14 "
+"days)."
+msgstr ""
+"Geben Sie die Anzahl der Tage ein, nach denen der Zahlungsbetrag eingezogen "
+"werden soll (muss zwischen 2 und 14 Tagen liegen)."
+
+#: includes/novalnet-functions.php:139
+msgid "Configuration"
+msgstr "Konfiguration"
+
+#: includes/novalnet-functions.php:200
+msgid "Payment was not successful. An error occurred."
+msgstr "Die Zahlung war nicht erfolgreich. Ein Fehler trat auf."
+
+#: includes/novalnet-functions.php:217
+msgid "Pay now with Barzahlen/viacash"
+msgstr "Bezahlen mit Barzahlen/viacash"
+
+#: includes/novalnet-functions.php:369
+msgid "The amount is invalid"
+msgstr "Ungültiger Betrag"
+
+#: includes/novalnet-functions.php:380
+msgid "Multiple subscription can not be purchased at the same time "
+msgstr "Mehrere Abonnementzahlungen können nicht gleichzeitig bezahlt werden "
+
+#: includes/novalnet-functions.php:599
+msgid "Customer name/email fields are not valid"
+msgstr "Ungültige Werte für die Felder Kundenname-/email"
+
+#: includes/novalnet-functions.php:652
+msgid "You are now redirected automatically"
+msgstr "Sie werden jetzt automatisch umgeleitet"
+
+#: includes/novalnet-functions.php:652
+msgid "Please wait..."
+msgstr "Warten Sie bitte …"
+
+#: includes/novalnet-functions.php:743
+#, php-format
+msgid ""
+"Successfully updated the payment and customer billing details for upcoming "
+"subscriptions on date: %s"
+msgstr ""
+"Die Zahlungs- und Rechnungsdaten für zukünftige Abonnement-Abbuchungen "
+"wurden erfolgreich aktualisiert: %s"
+
+#: includes/novalnet-functions.php:910 includes/novalnet-functions.php:940
+msgid "While redirecting some data has been changed. The hash check failed"
+msgstr ""
+"Während der Umleitung wurden einige Daten geändert. Die Überprüfung des "
+"Hashes schlug fehl"
+
+#: includes/novalnet-functions.php:917
+#, php-format
+msgid "Recurring change payment method has been failed due to %s"
+msgstr "Abonnement Annullierung wurde aufgrund nicht bestanden: %s"
+
+#: includes/novalnet-functions.php:986
+msgid "Transaction not refunded in Novalnet, as checkbox was not selected."
+msgstr ""
+"Transaktion nicht erstattete im Novalnet, da das Kontrollkästchen nicht "
+"aktiviert wurde."
+
+#: includes/novalnet-functions.php:1018
+#, php-format
+msgid ""
+"Refund has been initiated for the TID: %1$s with the amount %2$s. New TID:"
+"%3$s for the refunded amount"
+msgstr ""
+"Die Rückerstattung für die TID %1$s mit dem Betrag %2$s wurde veranlasst. "
+"Neue TID %3$s"
+
+#: includes/novalnet-functions.php:1020
+#, php-format
+msgid "Refund has been initiated for the TID:%1$s with the amount %2$s"
+msgstr ""
+"Die Rückerstattung für die TID %1$s mit dem Betrag %2$s wurde veranlasst"
+
+#: includes/novalnet-functions.php:1047
+#, php-format
+msgid "Payment refund failed for the order due to: %s"
+msgstr ""
+"Die Rückerstattung für die Bestellung ist fehlgeschlagen aufgrund von: %s"
+
+#: includes/novalnet-functions.php:1093
+#, php-format
+msgid "Subscription has been canceled for the TID: %s"
+msgstr "Das Abonnement wurde gekündigt für die TID: %s"
+
+#: includes/novalnet-functions.php:1100
+#, php-format
+msgid "Subscription cancelation failed for the order due to: %s"
+msgstr "Das Abonnement wurde gekündigt wegen: %s"
+
+#: includes/novalnet-functions.php:1145
+msgid "Product is costly"
+msgstr "Angebot zu teuer"
+
+#: includes/novalnet-functions.php:1146
+msgid "Cheating"
+msgstr "Betrug"
+
+#: includes/novalnet-functions.php:1147
+msgid "Partner interfered"
+msgstr "(Ehe-)Partner hat Einspruch eingelegt"
+
+#: includes/novalnet-functions.php:1148
+msgid "Financial problem"
+msgstr "Finanzielle Schwierigkeiten"
+
+#: includes/novalnet-functions.php:1149
+msgid "Content does not match my likes"
+msgstr "Inhalt entsprach nicht meinen Vorstellungen"
+
+#: includes/novalnet-functions.php:1150
+msgid "Content is not enough"
+msgstr "Inhalte nicht ausreichend"
+
+#: includes/novalnet-functions.php:1151
+msgid "Interested only for a trial"
+msgstr "Nur an Probezugang interessiert"
+
+#: includes/novalnet-functions.php:1152
+msgid "Page is very slow"
+msgstr "Seite zu langsam"
+
+#: includes/novalnet-functions.php:1153
+msgid "Satisfied customer"
+msgstr "Zufriedener Kunde"
+
+#: includes/novalnet-functions.php:1154
+msgid "Logging in problems"
+msgstr "Zugangsprobleme"
+
+#: includes/novalnet-functions.php:1576
+msgid ""
+"Your order is being verified. Once confirmed, we will send you our bank "
+"details to which the order amount should be transferred. Please note that "
+"this may take up to 24 hours."
+msgstr ""
+"Ihre Bestellung wird überprüft. Nach der Bestätigung senden wir Ihnen unsere "
+"Bankverbindung, an die Sie bitte den Gesamtbetrag der Bestellung überweisen. "
+"Bitte beachten Sie, dass dies bis zu 24 Stunden dauern kann."
+
+#: includes/novalnet-functions.php:1578
+msgid "Please transfer the amount to the below mentioned account."
+msgstr "Bitte überweisen Sie den Betrag auf das unten stehende Konto."
+
+#: includes/novalnet-functions.php:1581
+msgid "Due date: "
+msgstr "Fälligkeitsdatum: "
+
+#: includes/novalnet-functions.php:1583
+msgid "Account holder: "
+msgstr "Kontoinhaber: "
+
+#: includes/novalnet-functions.php:1591
+msgid "Amount: "
+msgstr "Betrag: "
+
+#: includes/novalnet-functions.php:1594
+msgid ""
+"Please use the following payment reference for your money transfer, as only "
+"through this way your payment is matched and assigned to the order:"
+msgstr ""
+"Bitte verwenden Sie nur den unten angegebenen Verwendungszweck für die "
+"Überweisung, da nur so Ihr Geldeingang zugeordnet werden kann:"
+
+#: includes/novalnet-functions.php:1602
+#, php-format
+msgid "Payment Reference %s: "
+msgstr "Verwendungszweck %s: "
+
+#: includes/novalnet-functions.php:1624
+msgid "Slip expiry date"
+msgstr "Verfallsdatum des Zahlscheins"
+
+#: includes/novalnet-functions.php:1627
+msgid "Store(s) near you"
+msgstr "Barzahlen-Partnerfiliale in Ihrer Nähe"
+
+#: includes/novalnet-functions.php:1813
+msgid "This is processed as a guarantee payment"
+msgstr "Diese Transaktion wird mit Zahlungsgarantie verarbeitet"
+
+#: includes/novalnet-functions.php:1815
+#, php-format
+msgid "Novalnet transaction ID: %s"
+msgstr "Novalnet Transaktions-ID: %s"
+
+#: includes/novalnet-functions.php:1817
+msgid "Test order"
+msgstr "Testbestellung"
+
+#: includes/novalnet-functions.php:1819
+msgid ""
+"Your order is under verification and we will soon update you with the order "
+"status. Please note that this may take upto 24 hours."
+msgstr ""
+"Ihre Bestellung wird derzeit überprüft. Wir werden Sie in Kürze über den "
+"Bestellstatus informieren. Bitte beachten Sie, dass dies bis zu 24 Stunden "
+"dauern kann."
+
+#: includes/novalnet-functions.php:1865
+msgid "Only Germany, Austria or Switzerland are allowed"
+msgstr "Als Land ist nur Deutschland, Österreich oder Schweiz erlaubt"
+
+#: includes/novalnet-functions.php:1868
+msgid "Only EUR currency allowed"
+msgstr "Als Währung ist nur EUR erlaubt"
+
+#: includes/novalnet-functions.php:1872
+#, php-format
+msgid "Minimum order amount must be %s"
+msgstr "Der Mindestbestellwert beträgt %s"
+
+#: includes/novalnet-functions.php:1905
+msgid "Please enter your date of birth"
+msgstr "Geben Sie bitte Ihr Geburtsdatum ein"
+
+#: includes/novalnet-functions.php:1907
+msgid "The date format is invalid"
+msgstr "Ungültiges Datumsformat"
+
+#: includes/novalnet-functions.php:1909
+msgid "You need to be at least 18 years old"
+msgstr "Sie müssen mindestens 18 Jahre alt sein"
+
+#: templates/invoice-template.php:59 templates/sepa-template.php:63
+msgid "Please enable the Javascript in your browser to load the payment form"
+msgstr ""
+"Aktivieren Sie bitte JavaScript in Ihrem Browser, um die Zahlung fortzusetzen"
+
+#: templates/invoice-template.php:67 templates/sepa-template.php:93
+msgid "Your date of birth"
+msgstr "Ihr Geburtsdatum"
+
+#: templates/invoice-template.php:71 templates/sepa-template.php:97
+msgid "DD"
+msgstr "TT"
+
+#: templates/invoice-template.php:72 templates/sepa-template.php:98
+msgid "MM"
+msgstr "MM"
+
+#: templates/invoice-template.php:73 templates/sepa-template.php:99
+msgid "YYYY"
+msgstr "JJJJ"
+
+#: templates/sepa-template.php:32
+msgid "The amount will be debited from your account by Novalnet"
+msgstr "Der Betrag wird durch Novalnet von Ihrem Konto abgebucht"
+
+#: templates/sepa-template.php:70 templates/sepa-template.php:73
+msgid "Account holder"
+msgstr "Kontoinhaber"
+
+#: templates/sepa-template.php:77
+msgid "IBAN "
+msgstr "IBAN "
+
+#: templates/sepa-template.php:80
+msgid "IBAN"
+msgstr "IBAN"
+
+#: templates/sepa-template.php:83
+msgid "BIC "
+msgstr "BIC"
+
+#: templates/sepa-template.php:86
+msgid "BIC"
+msgstr "BIC"
+
+#: templates/sepa-template.php:107
+msgid ""
+"I hereby grant the mandate for the SEPA direct debit (electronic "
+"transmission) and confirm that the given bank details are correct!"
+msgstr ""
+"Ich erteile hiermit das SEPA-Lastschriftmandat (elektronische Übermittlung) "
+"und bestätige, dass die Bankverbindung korrekt ist!"
+
+#: templates/sepa-template.php:110
+msgid ""
+"I authorise (A) Novalnet AG to send instructions to my bank to debit my "
+"account and (B) my bank to debit my account in accordance with the "
+"instructions from Novalnet AG."
+msgstr ""
+"Ich ermächtige den Zahlungsempfänger, Zahlungen von meinem Konto mittels "
+"Lastschrift einzuziehen. Zugleich weise ich mein Kreditinstitut an, die von "
+"dem Zahlungsempfänger auf mein Konto gezogenen Lastschriften einzulösen."
+
+#: templates/sepa-template.php:113
+msgid "Creditor identifier: "
+msgstr "Gläubiger-Identifikationsnummer: "
+
+#: templates/sepa-template.php:115
+msgid "Note: "
+msgstr "Hinweis: "
+
+#: templates/sepa-template.php:115
+msgid ""
+"You are entitled to a refund from your bank under the terms and conditions "
+"of your agreement with bank. A refund must be claimed within 8 weeks "
+"starting from the date on which your account was debited."
+msgstr ""
+"Ich kann innerhalb von acht Wochen, beginnend mit dem Belastungsdatum, die "
+"Erstattung des belasteten Betrages verlangen. Es gelten dabei die mit meinem "
+"Kreditinstitut vereinbarten Bedingungen."
+
+#~ msgid ""
+#~ "PCI compliant payment solution, covering a full scope of payment services "
+#~ "and seamless integration for easy adaptability"
+#~ msgstr ""
+#~ "PCI-konforme Zahlungsabwicklung mit einer Vielzahl an Payment-Services "
+#~ "und nahtloser Integration für eine einfache Anbindung"
+
+#~ msgid "Novalnet payment plugin - Easy Digital Downloads"
+#~ msgstr "Novalnet-Zahlungsplugin - Easy Digital Downloads"
+
+#~ msgid "Subscription cancelation is successful for the TID: %s"
+#~ msgstr "Transaktion mit TID: %1$s wurde am %2$s erfolgreich aktualisiert."
+
+#~ msgid ""
+#~ "The payment cannot be processed, because the basic requirements for the "
+#~ "payment guarantee are not met <br>  %s   "
+#~ msgstr ""
+#~ "Die Zahlung kann nicht ausgeführt werden, weil die Voraussetzungen für "
+#~ "die Zahlungsgarantie nicht erfüllt sind <br> %s "
+
+#~ msgid ""
+#~ "Novalnet Callback Script executed successfully for the TID: %1$s with "
+#~ "amount %2$s on %3$s."
+#~ msgstr ""
+#~ "Novalnet-Callback-Skript erfolgreich ausgeführt für die TID: %s mit dem "
+#~ "Betrag am %s um %s Uhr."
+
+#~ msgid ""
+#~ "Plug-in to process payments in Easy Digital Downloads through Novalnet "
+#~ "Gateway"
+#~ msgstr ""
+#~ "Plugin um Zahlungen in Easy Digital Downloads über die Novalnet-"
+#~ "Schnittstelle abzuwickeln"
+
+#~ msgid ""
+#~ "Novalnet callback script received. Subscription has been stopped for the "
+#~ "TID: %1$s on %2$s. Subscription has been canceled due to: %3$s"
+#~ msgstr ""
+#~ "Nachricht vom Novalnet-Callback-Skript erhalten: Das Abonnement wurde für "
+#~ "die TID: %s am %s eingestellt. Das Abonnement wurde gekündigt wegen: %s"
+
+#~ msgid ""
+#~ "Novalnet Callback Script executed successfully for the TID: %1$s with "
+#~ "amount %2$s on %3$s. Please refer PAID transaction in our Novalnet Admin "
+#~ "Portal with the TID: %4$s. %5$sPlease verify received amount and TID "
+#~ "details, and update the order status accordingly. "
+#~ msgstr ""
+#~ "Novalnet-Callback-Skript erfolgreich ausgeführt für die TID: %1$s mit dem "
+#~ "Betrag %2$s am , um %3$s Uhr. Bitte suchen Sie nach der bezahlten "
+#~ "Transaktion in unserer Novalnet-Händleradministration mit der TID: %4$s. "
+#~ "%5$s Please verify received amount and TID details, and update the order "
+#~ "status accordingly. "
+
+#~ msgid "The amount will be debited from your credit/debit card"
+#~ msgstr "Der Betrag wird Ihrer Kredit-/Debitkarte belastet"
