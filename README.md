@@ -52,7 +52,7 @@ Follow these steps to install the Easy Digital Downloads payment plugin by Noval
 For detailed documentation and other technical inquiries, please send us an email at sales@novalnet.de.
 
 ## License
-See our License Agreement at:  https://www.novalnet.com/payment-plugins/free/license
+See our License Agreement at:  https://www.novalnet.com/payment-plugins-free-license/
 
 ## Documentation & Support
 
