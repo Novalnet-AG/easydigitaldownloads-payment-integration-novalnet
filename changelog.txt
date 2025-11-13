@@ -1,0 +1,112 @@
+*** Changelog ***
+
+= 2.4.0 - 2025.11.13 =
+
+* New - EPC/SPC QR code implemented for Prepayment, Invoice, and Invoice with payment guarantee payments
+* Enhanced - Plugin has been optimized based on the WordPress trademark policy
+* Enhanced - Callback and extension comments are now displayed on the frontend for all follow-up processes
+* Removed - Sofort, giropay, and Barzahlen/viacash payments
+
+= 2.3.0 - 2025.05.12 =
+
+* New - Implemented TWINT payment
+* Fix - Additional subscription creation for default payments if the novalnet payment is enabled
+* Fix - Adjusted to display Novalnet transaction ID for every recurring subscription orders in order history page
+* Fix -  Adjusted to display single Novalnet transaction ID when an order in created for canceled transaction
+* Enhanced - Built-in Sub-Resource Integrity (SRI) integrated for JavaScript files to improve security for preventing unauthorized modifications
+* Enhanced - Minification of JavaScript files for enhanced performance 
+
+= 2.2.0 - 2022.06.10 =
+
+* New - Implemented Online bank transfer payment
+* New - Implemented Refund API request as per the shop default process
+* Fix - Compatibility for PHP version 8
+* Fix - Adjusted payment plugin to support shop tax values
+* Enhanced - For IBAN-specific countries, the BIC field displayed for payments like Direct Debit SEPA and Direct Debit SEPA with payment guarantee
+* Enhanced - Updated payment logo for Sofort payment
+* Enhanced - Callback has been optimized as per the new testcase
+
+= 2.1.1 - 2021.11.26 =
+
+* Fix      - Updated IP address to get the actual IP of Novalnet server
+* Enhanced - Client key configuration set hidden in Novalnet Global configuration
+
+= 2.1.0 - 2021.04.12 =
+
+* New		- Implemented enforce 3D secure payment for countries outside EU
+* New		- Implemented Payment duration for Prepayment
+* Fix		- Compatibility for Wordpress 5.7
+* Fix		- Plugin adjusted to place subscription orders using  Credit Card 3D secure
+* Fix		- Refund notes updated only for the corresponding recurring order
+* Fix		- Plugin adjusted to place subscription orders with free trial amount
+* Fix		- Plugin updated to restrict overriding of the TID for the same order
+
+= 2.0.1 - 2020.12.24 =
+
+* New  		- Implemented update payment method feature for subscription payments
+* Fix       - One-time discount amount calculated for subscription recurring orders
+* Fix       - Subscription status changed from "Active" to "Complete" after entire subscription cycles get completed
+* Fix       - Adjusted payment plugin to get exact amount after tax inclusion
+* Enhanced  - Barzahlen payment name and logo 
+
+= 2.0.0 - 2020.09.16 =
+
+* New		- Implemented Direct Debit SEPA with payment guarantee and Invoice with payment guarantee
+* New		- Implemented new encryption method for redirect payments
+* Enhanced	-  Creation of order as default before executing payment call in the shopsystem to avoid the missing orders on completion of payment on non-return of end user due to end user closed the browser or time out at payment, etc.
+* Enhanced	- Auto configuration call perform via cURL method
+* Enhanced	- Callback has been optimized as per the new testcase
+* Removed	- Referrer id configuration
+* Removed	- PIN by callback and PIN by SMS for Direct Debit SEPA and Invoice payment methods
+* Removed	- BIC field for Direct Debit SEPA
+* Removed	- Transaction reference in payments
+* Removed	- Payment reference configuration for Invoice / prepayment 
+* Removed	- Autofill and Payment refill for payment data
+
+= 1.2.0 - 2020.05.16 =
+
+* New		- Implemented Barzahlen payment method
+* New		- Custom checkout overlay for Barzahlen
+* New		- Force 3D secure process has been implemented as per predefined filters and settings in the Novalnet Merchant Administration Portal
+* New		- Implemented subscription reactivation in vendor script
+* Enhanced	- On-hold transaction configuration has been implemented for Credit Card, Direct Debit SEPA, Invoice and PayPal payments
+* Enhanced	- Optimized IP condition check for remote address
+
+= 1.1.3 - 2018.01.02 =
+
+* Enhanced	- Dynamic IP control applied through domain instead of static IP in vendor script. Actual IP of Novalnet will be extracted in realtime from the domain
+* Removed	- Enable debug mode configuration in Merchant script management	
+
+= 1.1.2- 2017.11.30 =
+
+* Fixed		- Issue with single iteration Subscription product (Eg: price per month for 1 month)
+* Enhanced	- Novalnet Merchant Administration Portal link has been updated in shop admin
+* Enhanced	- Payment module has been optimized
+
+= 1.1.1 - 2017.06.02 =
+
+* New		- Auto configuration of vendor credentials
+* New		- Payment method "Przelewy24" added
+* New		- Credit Card iframe updated
+* New		- On-hold transactions for PayPal implemented
+* New		- Implemented Novalnet updates page
+* New		- Customized CSS settings for Credit Card iframe form
+* Enhanced	- Added new parameter in all API calls
+* Enhanced	- Updated payment logo for Credit Card and Invoice payment
+* Enhanced	- Payment module has been optimized
+	
+= 1.1.0 - 2016.05.11 =
+
+- Local form implementation for Direct Debit SEPA payment
+- Iframe implementation for Credit Card payment
+- eps and giropay payment has been implemented
+- Payment reference has been implemented
+- Notify URL configuration in shop backend
+- Logo control has been implemented in global configuration
+- Novalnet payment module has been optimized as per new testcase
+- Novalnet fraud module has been implemented for Direct Debit SEPA and invoice payment
+- Novalnet Subscription cancel has been integrated
+
+= 1.0.0 - 2014.09.27 =
+
+* 	- New release
