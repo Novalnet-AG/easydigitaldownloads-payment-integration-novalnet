@@ -29,8 +29,8 @@ Novalnet merchant account is required for processing all international and local
 ## Integrated Payment Methods
 *	Direct Debit SEPA
 *	Credit/Debit Cards
-Apple Pay
-Google Pay
+* Apple Pay
+* Google Pay
 * 	Invoice
 * 	Prepayment
 *	Invoice with payment guarantee
